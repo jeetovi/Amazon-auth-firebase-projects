@@ -33,6 +33,7 @@ const SignUp = () => {
         .then(result =>{
             const logUser = result.user;
             console.log(logUser)
+            form.reset()
         })
         .catch(error =>{
      console.log(error)
